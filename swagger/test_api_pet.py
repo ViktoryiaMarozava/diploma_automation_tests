@@ -1,6 +1,6 @@
 import requests
 import json
-from URLs import *
+from URLs import URL_STATUS, URL_SWAGGER, URL_PET
 import allure
 
 

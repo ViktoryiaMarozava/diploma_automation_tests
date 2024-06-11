@@ -1,6 +1,6 @@
 import pytest
 import requests
-from URLs import *
+from URLs import URL_SWAGGER, URL_PET
 
 
 @pytest.fixture

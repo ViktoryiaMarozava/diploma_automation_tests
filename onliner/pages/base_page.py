@@ -16,7 +16,4 @@ class BasePage:
         return element
 
 
-    def wait_for(self, locator: Tuple[str, str], timeout: int = 5):
-        return WebDriverWait(self.driver, timeout).until(EC.visibility_of_element_located(locator))
-
 

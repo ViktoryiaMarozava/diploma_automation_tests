@@ -2,7 +2,7 @@ import time
 
 import allure
 
-from onliner.locators.main_page_locators import *
+from onliner.locators.main_page_locators import CATALOG_SPAN, CONSENT_BUTTON, SECTION, SECTION_TABLETS_BOOKS, SECTION_TABLETS, LI_BASKET, INITIAL_PRICE, GO_TO_BASKET, BASKET_PRICE, BU_CHECKOUT, CHECKBOX_APPLE, CHECKBOX_SAMSUNG, TABLET_APPLE_IPAD_AIR_2022
 from onliner.pages.base_page import BasePage
 from selenium.webdriver.common.by import By
 
